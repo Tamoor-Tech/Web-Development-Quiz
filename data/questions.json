@@ -1,0 +1,1106 @@
+{
+  "mcqs": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Text Markup Language",
+        "Hyper Tabular Markup Language",
+        "None of these"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 2,
+      "question": "Which CSS property is used to change the text color of an element?",
+      "options": [
+        "fgcolor",
+        "color",
+        "text-color",
+        "font-color"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is a CSS framework?",
+      "options": [
+        "Django",
+        "React",
+        "Bootstrap",
+        "Node.js"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 4,
+      "question": "How do you write 'Hello World' in an alert box?",
+      "options": [
+        "alertBox('Hello World');",
+        "msg('Hello World');",
+        "alert('Hello World');",
+        "console.log('Hello World');"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 5,
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "question": "Which property is used to change the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "fill-color"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 7,
+      "question": "In JavaScript, how do you declare a variable?",
+      "options": [
+        "var name;",
+        "variable name;",
+        "v name;",
+        "declare name;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 8,
+      "question": "Which HTML element is used to specify a footer for a document or section?",
+      "options": [
+        "<bottom>",
+        "<footer>",
+        "<section-footer>",
+        "<div>"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "question": "What is the correct way to add a comment in CSS?",
+      "options": [
+        "// this is a comment",
+        "/* this is a comment */",
+        "' this is a comment",
+        "<!-- this is a comment -->"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "question": "Which event occurs when the user clicks on an HTML element?",
+      "options": [
+        "onchange",
+        "onmouseclick",
+        "onclick",
+        "onmouseover"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 11,
+      "question": "What does CSS stand for?",
+      "options": [
+        "Creative Style Sheets",
+        "Colorful Style Sheets",
+        "Cascading Style Sheets",
+        "Computer Style Sheets"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 12,
+      "question": "Which attribute is used to provide a unique identifier for an element?",
+      "options": [
+        "class",
+        "id",
+        "name",
+        "tag"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "question": "How do you select an element with id 'demo' in CSS?",
+      "options": [
+        ".demo",
+        "demo",
+        "#demo",
+        "*demo"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 14,
+      "question": "Which HTML tag is used to define an internal style sheet?",
+      "options": [
+        "<css>",
+        "<script>",
+        "<style>",
+        "<link>"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 15,
+      "question": "Which JavaScript method is used to write into the browser's console?",
+      "options": [
+        "console.write()",
+        "console.log()",
+        "print()",
+        "document.write()"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "question": "What is the correct HTML for adding a background color?",
+      "options": [
+        "<body bg='yellow'>",
+        "<body style='background-color:yellow;'>",
+        "<background>yellow</background>",
+        "<body color='yellow'>"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "question": "Which CSS property controls the text size?",
+      "options": [
+        "font-style",
+        "text-size",
+        "font-size",
+        "text-style"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 18,
+      "question": "Is JavaScript the same as Java?",
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Only in syntax"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "question": "How do you create a function in JavaScript?",
+      "options": [
+        "function = myFunction()",
+        "function:myFunction()",
+        "function myFunction()",
+        "new function myFunction()"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 20,
+      "question": "Which HTML element is used for the largest heading?",
+      "options": [
+        "<h6>",
+        "<head>",
+        "<h1>",
+        "<heading>"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 21,
+      "question": "How can you make a numbered list in HTML?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<list>",
+        "<dl>"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "question": "Which property is used to change the font of an element?",
+      "options": [
+        "font-weight",
+        "font-style",
+        "font-family",
+        "text-font"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "question": "What is the correct HTML for making a checkbox?",
+      "options": [
+        "<input type='checkbox'>",
+        "<check>",
+        "<checkbox>",
+        "<input type='check'>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 24,
+      "question": "Which HTML element is used to define important text?",
+      "options": [
+        "<important>",
+        "<i>",
+        "<strong>",
+        "<bold>"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 25,
+      "question": "Which character is used to indicate an end tag?",
+      "options": [
+        "^",
+        "*",
+        "/",
+        "<"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 26,
+      "question": "How do you make the text bold in CSS?",
+      "options": [
+        "font:bold;",
+        "style:bold;",
+        "font-weight:bold;",
+        "text-decoration:bold;"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 27,
+      "question": "Which HTML tag is used to display a scalar measurement within a range?",
+      "options": [
+        "<range>",
+        "<measure>",
+        "<meter>",
+        "<gauge>"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 28,
+      "question": "In JavaScript, how do you call a function named 'myFunction'?",
+      "options": [
+        "call myFunction()",
+        "myFunction()",
+        "call function myFunction()",
+        "execute myFunction()"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "question": "Which attribute is used to specify an image source?",
+      "options": [
+        "link",
+        "href",
+        "src",
+        "img"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 30,
+      "question": "What is the default value of the position property in CSS?",
+      "options": [
+        "relative",
+        "fixed",
+        "absolute",
+        "static"
+      ],
+      "answer": 3
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Chapter 1: Internet & Web Basics",
+      "faqs": [
+        {
+          "question": "What is the World Wide Web?",
+          "answer": "The World Wide Web (WWW) is an information system where documents and other web resources are identified by URLs and accessible over the Internet."
+        },
+        {
+          "question": "What is a Web Browser?",
+          "answer": "A web browser is a software application for accessing information on the World Wide Web, like Chrome, Firefox, or Safari."
+        },
+        {
+          "question": "Explain HTTP and HTTPS.",
+          "answer": "HTTP is the protocol used to transfer data over the web. HTTPS is the secure version of HTTP, where communications are encrypted by TLS or SSL."
+        }
+      ],
+      "mcqs": [
+        {
+          "question": "Which of the following is true about Internet & Web Basics?",
+          "options": [
+            "It is outdated",
+            "It is a core part of web development",
+            "It is only used for mobile apps",
+            "It requires no learning"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What is the primary role of Internet & Web Basics?",
+          "options": [
+            "Database management",
+            "Styling elements",
+            "Depends on the specific technology context",
+            "It is an operating system"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which tool is most commonly associated with Internet & Web Basics?",
+          "options": [
+            "A code editor",
+            "A hammer",
+            "A microwave",
+            "A car engine"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "How do beginners typically start learning Internet & Web Basics?",
+          "options": [
+            "By reading documentation and writing code",
+            "By swimming",
+            "By sleeping",
+            "By ignoring it"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Why is Internet & Web Basics important?",
+          "options": [
+            "It builds modern applications",
+            "It is a tasty food",
+            "It solves math problems only",
+            "It repairs hardware"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Chapter 2: HTML Fundamentals",
+      "faqs": [
+        {
+          "question": "What is HTML?",
+          "answer": "HTML (HyperText Markup Language) is the standard markup language for creating web pages."
+        },
+        {
+          "question": "What are HTML attributes?",
+          "answer": "Attributes provide additional information about HTML elements, usually specified in the start tag (e.g., class, id, src, href)."
+        },
+        {
+          "question": "What is semantic HTML?",
+          "answer": "Semantic HTML introduces formatting elements that carry structural meaning, like <article>, <header>, and <footer>, which improve accessibility."
+        }
+      ],
+      "mcqs": [
+        {
+          "question": "Which of the following is true about HTML Fundamentals?",
+          "options": [
+            "It is outdated",
+            "It is a core part of web development",
+            "It is only used for mobile apps",
+            "It requires no learning"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What is the primary role of HTML Fundamentals?",
+          "options": [
+            "Database management",
+            "Styling elements",
+            "Depends on the specific technology context",
+            "It is an operating system"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which tool is most commonly associated with HTML Fundamentals?",
+          "options": [
+            "A code editor",
+            "A hammer",
+            "A microwave",
+            "A car engine"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "How do beginners typically start learning HTML Fundamentals?",
+          "options": [
+            "By reading documentation and writing code",
+            "By swimming",
+            "By sleeping",
+            "By ignoring it"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Why is HTML Fundamentals important?",
+          "options": [
+            "It builds modern applications",
+            "It is a tasty food",
+            "It solves math problems only",
+            "It repairs hardware"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Chapter 3: CSS Essentials",
+      "faqs": [
+        {
+          "question": "What does CSS stand for?",
+          "answer": "CSS stands for Cascading Style Sheets, used to format the layout and presentation of web pages."
+        },
+        {
+          "question": "Explain the CSS Box Model.",
+          "answer": "The CSS box model essentially wraps around every HTML element. It consists of: margins, borders, padding, and the actual content."
+        },
+        {
+          "question": "What are CSS Selectors?",
+          "answer": "CSS selectors define the HTML elements to which a set of CSS rules apply, using classes, IDs, elements, and pseudo-classes."
+        }
+      ],
+      "mcqs": [
+        {
+          "question": "Which of the following is true about CSS Essentials?",
+          "options": [
+            "It is outdated",
+            "It is a core part of web development",
+            "It is only used for mobile apps",
+            "It requires no learning"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What is the primary role of CSS Essentials?",
+          "options": [
+            "Database management",
+            "Styling elements",
+            "Depends on the specific technology context",
+            "It is an operating system"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which tool is most commonly associated with CSS Essentials?",
+          "options": [
+            "A code editor",
+            "A hammer",
+            "A microwave",
+            "A car engine"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "How do beginners typically start learning CSS Essentials?",
+          "options": [
+            "By reading documentation and writing code",
+            "By swimming",
+            "By sleeping",
+            "By ignoring it"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Why is CSS Essentials important?",
+          "options": [
+            "It builds modern applications",
+            "It is a tasty food",
+            "It solves math problems only",
+            "It repairs hardware"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chapter 4: Advanced CSS & Layouts",
+      "faqs": [
+        {
+          "question": "What is Flexbox?",
+          "answer": "Flexbox is a one-dimensional layout model in CSS that offers space distribution between items in an interface and powerful alignment capabilities."
+        },
+        {
+          "question": "What is CSS Grid?",
+          "answer": "CSS Grid is a powerful two-dimensional layout system tailored for complex web layouts involving both rows and columns."
+        },
+        {
+          "question": "Explain Responsive Web Design.",
+          "answer": "Responsive Web Design uses HTML and CSS to automatically resize, hide, shrink, or enlarge a website, to make it look good on all devices."
+        }
+      ],
+      "mcqs": [
+        {
+          "question": "Which of the following is true about Advanced CSS & Layouts?",
+          "options": [
+            "It is outdated",
+            "It is a core part of web development",
+            "It is only used for mobile apps",
+            "It requires no learning"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What is the primary role of Advanced CSS & Layouts?",
+          "options": [
+            "Database management",
+            "Styling elements",
+            "Depends on the specific technology context",
+            "It is an operating system"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which tool is most commonly associated with Advanced CSS & Layouts?",
+          "options": [
+            "A code editor",
+            "A hammer",
+            "A microwave",
+            "A car engine"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "How do beginners typically start learning Advanced CSS & Layouts?",
+          "options": [
+            "By reading documentation and writing code",
+            "By swimming",
+            "By sleeping",
+            "By ignoring it"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Why is Advanced CSS & Layouts important?",
+          "options": [
+            "It builds modern applications",
+            "It is a tasty food",
+            "It solves math problems only",
+            "It repairs hardware"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Chapter 5: JavaScript Basics",
+      "faqs": [
+        {
+          "question": "What is JavaScript?",
+          "answer": "JavaScript is a programming language that allows you to implement complex features on web pages, enabling dynamic and interactive web content."
+        },
+        {
+          "question": "Explain variables in JS.",
+          "answer": "Variables are containers for storing data values. In modern JS, they are declared using let and const keywords."
+        },
+        {
+          "question": "What is a function?",
+          "answer": "A function is a block of code designed to perform a particular task, executed when something invokes it."
+        }
+      ],
+      "mcqs": [
+        {
+          "question": "Which of the following is true about JavaScript Basics?",
+          "options": [
+            "It is outdated",
+            "It is a core part of web development",
+            "It is only used for mobile apps",
+            "It requires no learning"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What is the primary role of JavaScript Basics?",
+          "options": [
+            "Database management",
+            "Styling elements",
+            "Depends on the specific technology context",
+            "It is an operating system"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which tool is most commonly associated with JavaScript Basics?",
+          "options": [
+            "A code editor",
+            "A hammer",
+            "A microwave",
+            "A car engine"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "How do beginners typically start learning JavaScript Basics?",
+          "options": [
+            "By reading documentation and writing code",
+            "By swimming",
+            "By sleeping",
+            "By ignoring it"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Why is JavaScript Basics important?",
+          "options": [
+            "It builds modern applications",
+            "It is a tasty food",
+            "It solves math problems only",
+            "It repairs hardware"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Chapter 6: JavaScript DOM Manipulation",
+      "faqs": [
+        {
+          "question": "What is the DOM?",
+          "answer": "The Document Object Model (DOM) is a programming interface for web documents, representing the page as nodes and objects."
+        },
+        {
+          "question": "How do you select an element?",
+          "answer": "Elements can be selected using methods like document.getElementById, document.querySelector, or document.getElementsByClassName."
+        },
+        {
+          "question": "What are Event Listeners?",
+          "answer": "Event listeners are procedures attached to specific elements that wait for specific events (like clicks or keystrokes) to trigger actions."
+        }
+      ],
+      "mcqs": [
+        {
+          "question": "Which of the following is true about JavaScript DOM Manipulation?",
+          "options": [
+            "It is outdated",
+            "It is a core part of web development",
+            "It is only used for mobile apps",
+            "It requires no learning"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What is the primary role of JavaScript DOM Manipulation?",
+          "options": [
+            "Database management",
+            "Styling elements",
+            "Depends on the specific technology context",
+            "It is an operating system"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which tool is most commonly associated with JavaScript DOM Manipulation?",
+          "options": [
+            "A code editor",
+            "A hammer",
+            "A microwave",
+            "A car engine"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "How do beginners typically start learning JavaScript DOM Manipulation?",
+          "options": [
+            "By reading documentation and writing code",
+            "By swimming",
+            "By sleeping",
+            "By ignoring it"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Why is JavaScript DOM Manipulation important?",
+          "options": [
+            "It builds modern applications",
+            "It is a tasty food",
+            "It solves math problems only",
+            "It repairs hardware"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Chapter 7: Asynchronous JavaScript",
+      "faqs": [
+        {
+          "question": "What is AJAX?",
+          "answer": "AJAX (Asynchronous JavaScript and XML) is a technique for creating fast and dynamic web pages by updating parts of a page without reloading."
+        },
+        {
+          "question": "Explain Promises.",
+          "answer": "A Promise represents the eventual completion (or failure) of an asynchronous operation and its resulting value."
+        },
+        {
+          "question": "What is async/await?",
+          "answer": "Async/await is semantic syntax for working with Promises, allowing asynchronous code to look and behave more like synchronous code."
+        }
+      ],
+      "mcqs": [
+        {
+          "question": "Which of the following is true about Asynchronous JavaScript?",
+          "options": [
+            "It is outdated",
+            "It is a core part of web development",
+            "It is only used for mobile apps",
+            "It requires no learning"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What is the primary role of Asynchronous JavaScript?",
+          "options": [
+            "Database management",
+            "Styling elements",
+            "Depends on the specific technology context",
+            "It is an operating system"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which tool is most commonly associated with Asynchronous JavaScript?",
+          "options": [
+            "A code editor",
+            "A hammer",
+            "A microwave",
+            "A car engine"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "How do beginners typically start learning Asynchronous JavaScript?",
+          "options": [
+            "By reading documentation and writing code",
+            "By swimming",
+            "By sleeping",
+            "By ignoring it"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Why is Asynchronous JavaScript important?",
+          "options": [
+            "It builds modern applications",
+            "It is a tasty food",
+            "It solves math problems only",
+            "It repairs hardware"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Chapter 8: Frontend Frameworks (React/Angular)",
+      "faqs": [
+        {
+          "question": "What is a frontend framework?",
+          "answer": "A framework provides a standardized way to build and deploy web applications, offering pre-written code for common tasks."
+        },
+        {
+          "question": "What is React.js?",
+          "answer": "React is a popular, declarative, efficient, and flexible JavaScript library for building user interfaces, primarily maintained by Facebook."
+        },
+        {
+          "question": "What are React Components?",
+          "answer": "Components are independent and reusable bits of code that serve as the building blocks for a React application."
+        }
+      ],
+      "mcqs": [
+        {
+          "question": "Which of the following is true about Frontend Frameworks (React/Angular)?",
+          "options": [
+            "It is outdated",
+            "It is a core part of web development",
+            "It is only used for mobile apps",
+            "It requires no learning"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What is the primary role of Frontend Frameworks (React/Angular)?",
+          "options": [
+            "Database management",
+            "Styling elements",
+            "Depends on the specific technology context",
+            "It is an operating system"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which tool is most commonly associated with Frontend Frameworks (React/Angular)?",
+          "options": [
+            "A code editor",
+            "A hammer",
+            "A microwave",
+            "A car engine"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "How do beginners typically start learning Frontend Frameworks (React/Angular)?",
+          "options": [
+            "By reading documentation and writing code",
+            "By swimming",
+            "By sleeping",
+            "By ignoring it"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Why is Frontend Frameworks (React/Angular) important?",
+          "options": [
+            "It builds modern applications",
+            "It is a tasty food",
+            "It solves math problems only",
+            "It repairs hardware"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Chapter 9: Backend & Node.js",
+      "faqs": [
+        {
+          "question": "What is Node.js?",
+          "answer": "Node.js is an open-source, cross-platform JavaScript runtime environment that executes JS code outside a web browser."
+        },
+        {
+          "question": "What is Express.js?",
+          "answer": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications."
+        },
+        {
+          "question": "What is NPM?",
+          "answer": "NPM (Node Package Manager) is the default package manager for JavaScript, helping developers share and borrow packages of open-source code."
+        }
+      ],
+      "mcqs": [
+        {
+          "question": "Which of the following is true about Backend & Node.js?",
+          "options": [
+            "It is outdated",
+            "It is a core part of web development",
+            "It is only used for mobile apps",
+            "It requires no learning"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What is the primary role of Backend & Node.js?",
+          "options": [
+            "Database management",
+            "Styling elements",
+            "Depends on the specific technology context",
+            "It is an operating system"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which tool is most commonly associated with Backend & Node.js?",
+          "options": [
+            "A code editor",
+            "A hammer",
+            "A microwave",
+            "A car engine"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "How do beginners typically start learning Backend & Node.js?",
+          "options": [
+            "By reading documentation and writing code",
+            "By swimming",
+            "By sleeping",
+            "By ignoring it"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Why is Backend & Node.js important?",
+          "options": [
+            "It builds modern applications",
+            "It is a tasty food",
+            "It solves math problems only",
+            "It repairs hardware"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Chapter 10: Databases & APIs",
+      "faqs": [
+        {
+          "question": "What is a Database?",
+          "answer": "A database is an organized collection of data, generally stored and accessed electronically from a computer system."
+        },
+        {
+          "question": "SQL vs NoSQL?",
+          "answer": "SQL databases are relational and structured (e.g., MySQL), while NoSQL databases are non-relational and document-orientated (e.g., MongoDB)."
+        },
+        {
+          "question": "What is a REST API?",
+          "answer": "REST (Representational State Transfer) is an architectural style for APIs that uses standard HTTP methods to access and manipulate data."
+        }
+      ],
+      "mcqs": [
+        {
+          "question": "Which of the following is true about Databases & APIs?",
+          "options": [
+            "It is outdated",
+            "It is a core part of web development",
+            "It is only used for mobile apps",
+            "It requires no learning"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What is the primary role of Databases & APIs?",
+          "options": [
+            "Database management",
+            "Styling elements",
+            "Depends on the specific technology context",
+            "It is an operating system"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which tool is most commonly associated with Databases & APIs?",
+          "options": [
+            "A code editor",
+            "A hammer",
+            "A microwave",
+            "A car engine"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "How do beginners typically start learning Databases & APIs?",
+          "options": [
+            "By reading documentation and writing code",
+            "By swimming",
+            "By sleeping",
+            "By ignoring it"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Why is Databases & APIs important?",
+          "options": [
+            "It builds modern applications",
+            "It is a tasty food",
+            "It solves math problems only",
+            "It repairs hardware"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Chapter 11: Deployment & Git",
+      "faqs": [
+        {
+          "question": "What is Version Control?",
+          "answer": "Version control systems (like Git) record changes to a file or set of files over time so you can recall specific versions later."
+        },
+        {
+          "question": "What is GitHub?",
+          "answer": "GitHub is a cloud-based hosting service that lets you manage Git repositories and collaborate on code with others."
+        },
+        {
+          "question": "How are websites deployed?",
+          "answer": "Deployment involves transferring site files to a web server (like AWS, Netlify, or Vercel) to make it accessible live on the internet."
+        }
+      ],
+      "mcqs": [
+        {
+          "question": "Which of the following is true about Deployment & Git?",
+          "options": [
+            "It is outdated",
+            "It is a core part of web development",
+            "It is only used for mobile apps",
+            "It requires no learning"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What is the primary role of Deployment & Git?",
+          "options": [
+            "Database management",
+            "Styling elements",
+            "Depends on the specific technology context",
+            "It is an operating system"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which tool is most commonly associated with Deployment & Git?",
+          "options": [
+            "A code editor",
+            "A hammer",
+            "A microwave",
+            "A car engine"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "How do beginners typically start learning Deployment & Git?",
+          "options": [
+            "By reading documentation and writing code",
+            "By swimming",
+            "By sleeping",
+            "By ignoring it"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Why is Deployment & Git important?",
+          "options": [
+            "It builds modern applications",
+            "It is a tasty food",
+            "It solves math problems only",
+            "It repairs hardware"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

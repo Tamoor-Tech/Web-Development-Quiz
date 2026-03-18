@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamoor Quiz Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="screen active">
+        <div class="splash-content">
+            <h1 class="glow-text">Tamoor Quiz</h1>
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle-container">
+        <button id="theme-toggle" class="btn btn-vip-outline">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <!-- Container for All Content -->
+    <div class="container main-container">
+        
+        <!-- User Input Screen -->
+        <div id="input-screen" class="screen d-none">
+            <div class="card vip-card mx-auto shadow-lg" style="max-width: 500px;">
+                <div class="card-body p-5">
+                    <h2 class="text-center mb-4">Welcome to <span class="text-gold">Tamoor Quiz</span></h2>
+                    <p class="text-center text-muted mb-4">Please enter your details to proceed.</p>
+                    <form id="user-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control vip-input" id="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="mb-4">
+                            <label for="rollno" class="form-label">Roll Number</label>
+                            <input type="text" class="form-control vip-input" id="rollno" required placeholder="Numeric only" pattern="[0-9]+">
+                            <div class="form-text text-danger d-none" id="rollno-error">Roll number must contain only numbers.</div>
+                        </div>
+                        <button type="submit" class="btn btn-gold w-100 py-3 fw-bold">CONTINUE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Options Screen -->
+        <div id="options-screen" class="screen d-none text-center">
+            <h1 class="mb-5">Hi, <span id="display-name" class="text-gold"></span>! What's next?</h1>
+            <div class="options-grid">
+                <button id="btn-start-quiz" class="btn-pro btn-start-quiz">
+                    <i class="fas fa-play"></i>
+                    <span>START QUIZ</span>
+                </button>
+                <button id="btn-read-questions" class="btn-pro btn-read-questions">
+                    <i class="fas fa-book-open"></i>
+                    <span>READ SHORT QUESTIONS</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Chapter Selection Screen -->
+        <div id="chapter-screen" class="screen d-none">
+            <div class="d-flex justify-content-between align-items-center mb-4 container" style="max-width: 800px;">
+                <button class="btn btn-link text-gold btn-back-main p-0 text-decoration-none"><i class="fas fa-arrow-left"></i> Home</button>
+                <h2 id="chapter-selection-title" class="text-center m-0">Chapters</h2>
+                <div style="width: 60px;"></div>
+            </div>
+            <div id="chapter-container" class="row g-3 container mx-auto" style="max-width: 800px;">
+                <!-- Chapters will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Short Questions Mode (FAQs) -->
+        <div id="faq-screen" class="screen d-none">
+            <div class="d-flex justify-content-between align-items-center mb-4 container" style="max-width: 800px;">
+                <button class="btn btn-link text-gold btn-back-chapter p-0 text-decoration-none"><i class="fas fa-arrow-left"></i> Chapters</button>
+                <h2 id="faq-chapter-title" class="text-center m-0 fs-5">Short Questions</h2>
+                <div style="width: 80px;"></div>
+            </div>
+            <div id="faq-container" class="accordion-vip container mx-auto" style="max-width: 800px;">
+                <!-- FAQs will be loaded here via JS -->
+            </div>
+        </div>
+
+        <!-- Quiz Mode (MCQs) -->
+        <div id="quiz-screen" class="screen d-none">
+            <div class="quiz-header d-flex justify-content-between align-items-center mb-4 container" style="max-width: 800px;">
+                <div class="student-mini-info">
+                    <span id="quiz-student-name" class="fw-bold text-gold"></span>
+                </div>
+                <div class="progress-info">
+                    Question <span id="current-q">1</span> / <span id="total-q">30</span>
+                </div>
+            </div>
+            
+            <div class="container" style="max-width: 800px;">
+                <div class="progress mb-4" style="height: 12px;">
+                    <div id="quiz-progress-bar" class="progress-bar" role="progressbar" style="width: 0%"></div>
+                </div>
+
+                <div class="card vip-card shadow-lg mb-4">
+                    <div class="card-body p-4 p-md-5">
+                        <h3 id="question-text" class="mb-4"></h3>
+                        <div id="options-container" class="row g-3">
+                            <!-- Options will be loaded here via JS -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="feedback-container" class="text-center py-3 d-none">
+                    <h4 id="feedback-text" class="fw-bold p-3 rounded-pill" style="background: rgba(255,255,255,0.05); display: inline-block;"></h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- Result Page -->
+        <div id="result-screen" class="screen d-none">
+            <div class="card vip-card mx-auto shadow-lg text-center" style="max-width: 600px;">
+                <div class="card-body p-5">
+                    <div class="result-header mb-4">
+                        <i class="fas fa-trophy text-gold fa-4x mb-3"></i>
+                        <h2 class="fw-bold">Quiz Results</h2>
+                    </div>
+                    
+                    <div class="student-details mb-4">
+                        <p class="mb-1"><strong>Student:</strong> <span id="result-name"></span></p>
+                        <p><strong>Roll Number:</strong> <span id="result-roll"></span></p>
+                    </div>
+
+                    <div class="row g-3 mb-4">
+                        <div class="col-6">
+                            <div class="score-box correct">
+                                <span class="d-block text-muted small">CORRECT</span>
+                                <span id="result-correct" class="h1 fw-bold">0</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="score-box wrong">
+                                <span class="d-block text-muted small">WRONG</span>
+                                <span id="result-wrong" class="h1 fw-bold">0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="percentage-circle" class="mx-auto mb-4">
+                        <span id="percentage-text" class="h2 fw-bold text-gold">0%</span>
+                    </div>
+
+                    <button id="btn-restart" class="btn btn-gold w-100 py-3 fw-bold">TAKE QUIZ AGAIN</button>
+                    <button class="btn btn-outline-secondary w-100 mt-3 btn-back-main">BACK TO HOME</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
